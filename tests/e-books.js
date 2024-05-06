@@ -15,6 +15,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.ElectronicBook = void 0;
 var books_1 = require("./books");
 var ElectronicBook = /** @class */ (function (_super) {
     __extends(ElectronicBook, _super);
@@ -28,5 +29,4 @@ var ElectronicBook = /** @class */ (function (_super) {
     };
     return ElectronicBook;
 }(books_1.Book));
-var book1 = new ElectronicBook("Harry Potter", "J.K. Rowling", 1997, "PDF");
-console.log(book1.getSummary());
+exports.ElectronicBook = ElectronicBook;

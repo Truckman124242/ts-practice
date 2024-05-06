@@ -13,5 +13,3 @@ var Book = /** @class */ (function () {
     return Book;
 }());
 exports.Book = Book;
-var book1 = new Book("Harry Potter", "J.K. Rowling", 1997);
-console.log(book1.getSummary());

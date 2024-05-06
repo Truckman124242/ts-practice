@@ -8,10 +8,7 @@ export class Book {
     this.author = author;
     this.year = year;
   }
-
   public getSummary(): string {
     return `The book "${this.title}" was written in ${this.year} by ${this.author}.`;
   }
 }
-const book1 = new Book("Harry Potter", "J.K. Rowling", 1997);
-console.log(book1.getSummary());
